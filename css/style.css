@@ -3,8 +3,8 @@
 
 body{
 	margin:0px;
-	background:#fafaf8;	
-	font-family: 'Lato', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';
+	background:#FAFAF8;	
+	font-family: 'Cabin','Lato', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';
 }
 
 a {
@@ -20,10 +20,11 @@ a:hover {
 h1{
 	font-size:37px;
 	color:#3b3b3b;	
-	font-family:'Lato', Helvetica, Gotham;	
+	font-family: 'Oswald','Lato', Helvetica, Gotham;	
 	font-weight: 700;
 	text-align: center;
 	padding-bottom: 10px;
+    letter-spacing: -.05em;
 }
 
 h2{
