@@ -48,13 +48,8 @@ Ideally, a bug report should include a pull request with failing specs.
 1. Fork the project.
 2. Create a topic branch.
 3. Implement your feature or bug fix.
-4. Add tests for your feature or bug fix.
-5. Run `bundle exec rake test`. If your changes are not 100% covered, go back
-   to step 4.
-6. Commit and push your changes.
-7. Submit a pull request. Please do not include changes to the gemspec or
-   version file. (If you want to create your own version for some reason,
-   please do so in a separate commit.)
+4. Commit and push your changes.
+5. Submit a pull request.
 
 If something doesn't work on one of these interpreters, it should be considered
 a bug.
