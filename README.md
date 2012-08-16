@@ -11,10 +11,8 @@ You can see a running version of the site at
 [preview]: http://codeforamerica.github.com/peernetwork/
 
 ## Installation
-This site is in written in HTML and CSS with a little javascript -- nothing fancy required (though a few jQuery plugins and Google fonts help).
+This site is in written in HTML and CSS with a little javascript -- nothing fancy required (though a few jQuery plugins and Google fonts help). By forking the repository and maintaining a branch named "gh-pages" you can host the site with GitHub Pages at "http://[yourusername].github.com/peernetwork/"
 
-## Usage
-    rails server
 
 ## Contributing
 In the spirit of [free software][free-sw], **everyone** is encouraged to help
