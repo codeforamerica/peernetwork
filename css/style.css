@@ -70,6 +70,7 @@ ul{
 	width:100%;
 	height:141px;
 	background:url(../images/header_top_bg.jpg) repeat-x;	
+	border-top: 5px solid #D40949;
 }
 
 #header_logo_cont{
@@ -79,36 +80,42 @@ ul{
 	text-align:center;	
 }
 
+#header img.header-logo {
+	width: 200px;
+	margin: 20px 10px 10px 10px;
+}
+
 #banner_cont{
 	width:100%;
 	height:347px;
 	position:relative;
-	background:url(../images/banner_bg2.jpg) repeat-x;	
+	background: #40A7DB;	
 }
 
 #banner_bg{
 	width:100%;
 	height:347px;
 	position:relative;	
-	background:url(../images/banner_bg2.png) center no-repeat;
 }
 
 #banner_txt{
-	width:870px;
+	width:900px;
 	height:287px;
 	margin:0px auto;
 	text-align:right;
-	padding:30px 0px;
+	padding:30px 0px 30px 0px;
+	background:url(../images/radar.png) left no-repeat;
+
 }
 
 .top_cufon{
 	font-size:64px;
 	line-height:75px;
 	color:#fff;
-	font-family: 'Alfa Slab One', cursive;
-	text-shadow:8px 7px 8px #97172e;
+	font-family: 'Oswald', cursive;
 	-moz-text-shadow:8px 7px 8px #97172e;
 	-webkit-text-shadow:8px 7px 8px #97172e;
+	letter-spacing: -.05em;
 }
 
 .cufon{	
