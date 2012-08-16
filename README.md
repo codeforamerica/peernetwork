@@ -1,5 +1,5 @@
 # peernetwork
-Draft for Peer Network marketing website for Code for America
+Draft of the Peer Network marketing website for Code for America
 
 [travis]: http://travis-ci.org/codeforamerica/adopt-a-hydrant
 [gemnasium]: https://gemnasium.com/codeforamerica/adopt-a-hydrant
