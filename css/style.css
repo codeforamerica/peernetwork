@@ -351,46 +351,7 @@ ul{
 	color:#5d5d5c;
 }
 
-.left_art{
-	float:left;
-	width:470px;
-	font-weight:normal;
-	color:#5d5d5c;	
-}
 
-.spend_cont{
-	width:305px;
-	float:right;
-	padding-top: 10px;
-	
-}
-
-.spend_top{
-	float:left;
-	width:305px;
-	height:63px;
-	color:#63c6d3;
-	border-bottom:1px solid #afafb2;	
-}
-
-.spend_middle{
-	float:left;	
-	height:188px;
-	width:305px;	
-	color:#606062;
-	font-size:16px;
-}
-
-.spend_bottom{
-	float:left;
-	width:305px;
-	height:52px;
-	text-align:right;
-	color:#55c2d0;
-	font-size:16px;	
-	border-top:1px solid #afafb2;
-	padding-top:10px;
-}
 
 .redAm{
 	font-size:20px;
@@ -473,6 +434,32 @@ ul{
 #program .span4 img {
   opacity: 0.6;
   filter: alpha(opacity=40);
+}
+
+#program p {
+    color: #5D5D5C;
+}
+
+p.quote {
+  padding-left: 80px;
+  background: url(../images/quotes.png) left no-repeat;
+  background-opacity: 0.5;
+  color: #5D5D5C;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: italic;
+}
+
+ul.themes {
+  width: 850px;
+  display: block;
+  color: #5D5D5C;
+}
+
+ul.themes li{
+  padding: 0 10px 10px 0;
+  width: 400px;
+  float: left;
 }
 
 .proof_cont{
@@ -1425,10 +1412,6 @@ line-height: 66px;
 #application {
 	height: 4000px;
 	overflow: hidden;
-}
-
-#application #wrapper {
-	margin-top: 0px;
 }
 
 #information {
