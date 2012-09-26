@@ -624,6 +624,27 @@ img.advisoricons{
   }
 }
 
+/* Fixed subnav on scroll, but only for 980px and up (sorry IE!) */
+@media (min-width: 200px) {
+  .subnav-fixed {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 1020; /* 10 less than .navbar-fixed to prevent any overlap */
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); /* IE6-9 */
+  }
+
+  .subnav-fixed .nav {
+
+  }
+
+  .subnav .nav > li:first-child > a,
+  .subnav .nav > li:first-child > a:hover {
+
+  }
+}
+
 .modal-open .dropdown-menu {
   z-index: 2050;
 }
