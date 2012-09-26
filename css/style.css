@@ -319,7 +319,7 @@ ul{
 	float:left;
 	width:100%;
 	height:auto;
-	margin-top: 60px; /* need to account for the size of the nav */
+	margin-top: 80px; /* need to account for the size of the nav */
 }
 
 #main_container{
@@ -433,7 +433,7 @@ ul{
 
 .redli{	
 	font-size:20px;
-	color:#CB2A3C;	
+	color:#5D5D5C;	
 	font-weight: bold;
 }
 
@@ -558,8 +558,9 @@ img.advisoricons{
 	float:left;
 	width:100%;
 	height:50px;
-	background:#CB2A3C;
+	background:#000000;
 	text-align: center;
+	border-bottom: 5px solid #CB2A3C;
 }
 
 #footer_cont p{
