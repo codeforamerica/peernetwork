@@ -19,7 +19,7 @@ a:hover {
 
 h1{
 	font-size:32px;
-	color:black;	
+  color: black;
 	font-family: 'Oswald','Lato', Helvetica, Gotham;	
 	font-weight: 700;
 	text-align: center;
@@ -319,7 +319,7 @@ ul{
 	float:left;
 	width:100%;
 	height:auto;
-	margin-top: 80px; /* need to account for the size of the nav */
+	margin-top: 100px; /* need to account for the size of the nav */
 }
 
 #main_container{
@@ -486,6 +486,10 @@ img.advisoricons{
 	text-align: center;
 	margin: auto;
 	width: 660px;
+}
+
+.advisorimages ul {
+  list-style: none;
 }
 
 .advisorimages li{
