@@ -3,7 +3,7 @@
 
 body{
 	margin:0px;
-	background:#FAFAF8;	
+	background:white;	
 	font-family: 'Cabin','Lato', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';
 }
 
@@ -88,24 +88,29 @@ ul{
 
 #banner_cont{
 	width:100%;
-	height:347px;
+	height:325px;
 	position:relative;
-	background: #40A7DB;	
+	background: white;
+	padding-top: 50px;	
 }
 
 #banner_bg{
-	width:100%;
-	height:347px;
+	width:1280px;
+	height:350px;
 	position:relative;	
+	background: url(../images/node_image.png) bottom;
+	margin: 0 auto;
+	
 }
 
 #banner_txt{
-	width:900px;
-	height:287px;
+	width:1000px;
+	height:280px;
 	margin:0px auto;
 	text-align:right;
-	padding:30px 0px 30px 0px;
-	background:url(../images/radar.png) left no-repeat;
+	padding: 30px 0px 30px 0px;
+	background: url(../images/join_text.png) repeat-x bottom;
+	
 
 }
 
@@ -134,10 +139,10 @@ ul{
 
 .button {
 	float:right;
-	width:233px;
-	height:65px;
-	font-size: 28px;
-	font-family: 'lato', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';;
+	width:150px;
+	height:40px;
+	font-size: 16px;
+	font-family: 'cabin','lato', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';;
 	text-align:center;
 	font-weight:bold;
 	cursor:pointer;	
@@ -230,15 +235,24 @@ ul{
 	background:url(../images/apply_btn.png) left bottom no-repeat;
 }
 
+.Apply {
+  position: absolute;
+  right: 210px;
+  bottom: 80px;
+  
+}
+
 #main_nav_cont{
 	width:100%;
-	height:72px;
-	background:url(../images/main_nav_bg.png) repeat-x;	
+	height:65px;
+	background: black;
+	border-top: 5px #CB2A3C solid;	
+	
 }
 
 #nav_cont{
-	width:880px;
-	height:84px;
+	width:1100px;
+	height:65px;
 	margin:0px auto;
 }
 
@@ -251,34 +265,59 @@ ul{
 
 #nav_cont ul li{
 	float:left;
-	font-weight:700;	
-	font-size:24px;
-	line-height:63px;
+	font-weight:300;	
+	font-size:16px;
+	line-height:55px;
 	text-align:center;
+	vertical-align: bottom;
+	background: url(../images/slash.png) no-repeat left;
 }
+
+#nav_cont ul li.home{
+  background: none;
+}
+
 
 #nav_cont ul li a{
 	float:left;
-	padding:0px 34px;
+	padding:5px 10px 5px 25px;
 	text-decoration:none;
-	color:#3b3b3b;
+	color: white;
 	display:block;
-	height:84px;
-	font-family:'Lato', Helvetica, Gotham;	
-	font-weight: 700;
-	font-size: 21px;	
+	height:55px;
+	font-family: 'Cabin', Helvetica, Gotham;	
+	font-weight: 300;
+	font-size: 16px;	
 }
+
+#nav_cont ul li.home a{
+  background: none;
+  padding-left: 0px;
+}
+
+#nav_cont ul li.last {
+  float: right;
+  background: none;
+  
+}
+
+
+#nav_cont ul li.last img{
+  height: 35px;
+  align: middle;
+}
+
 
 #nav_cont ul li a:hover, #nav_cont ul li.active a{
 	color:#fff;
-	background:url(../images/nav_hover.png) center no-repeat;	
-}
+	font-weight: 800;
+  }
 
 #wrapper{
 	float:left;
 	width:100%;
 	height:auto;
-	margin-top:72px; /* need to account for the size of the nav */
+	margin-top:15px; /* need to account for the size of the nav */
 }
 
 #main_container{
@@ -397,8 +436,8 @@ ul{
 #finish_line_cont{
 	float:left;
 	width:100%;
-	height:60px;
-	background:url(../images/finishing_line.jpg) center no-repeat;
+	height:66px;
+	background:url(../images/bulb-breaker.png) center no-repeat;
 	margin:24px 0px 15px;	
 }
 
@@ -510,7 +549,7 @@ img.advisoricons{
 	float:left;
 	width:100%;
 	height:50px;
-	background:#40A7DB;
+	background:#CB2A3C;
 	text-align: center;
 }
 
