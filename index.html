@@ -57,7 +57,7 @@
 				  <div id="banner_bg">
 				    <div id="banner_txt"> 
 				      <div class="Apply">
-				        <button name="" class="button" type="submit" value="Apply  Now" />I'm interested</button>
+				        <button name=""  data-toggle="modal" href="#app" class="button" type="submit" value="Apply Now" />I'm interested</button>
 				      </div>
 				    </div>
 				  </div>
@@ -221,35 +221,40 @@
 				</div>-->
 			  </div>
 			</div>
-			</div>
-			</div>
-			</div>
-			<div id="application">
-			<div id="wrapper">
-			  <div id="main_container" class="app">
-			    <div id="wufoo-w7p6q5">
-				Fill out my <a href="http://codeforamerica.wufoo.com/forms/w7p6q5">online form</a>.
-				</div>
-				<script type="text/javascript">var w7p6q5;(function(d, t) {
-				var s = d.createElement(t), options = {
-				'userName':'codeforamerica', 
-				'formHash':'w7p6q5', 
-				'autoResize':true,
-				'height':'764',
-				'async':true,
-				'header':'show', 
-				'ssl':true};
-				s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-				s.onload = s.onreadystatechange = function() {
-				var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-				try { w7p6q5 = new WufooForm();w7p6q5.initialize(options);w7p6q5.display(); } catch (e) {}};
-				var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-				})(document, 'script');</script>
-	     
-		  </div>
 		</div>
-		</div>
+	</div>
+</div>
 
+<div id="app" class="modal hide fade in" style="display: none; ">  
+  <div class="modal-header">  
+    <a class="close" data-dismiss="modal">×</a>  
+  </div>  
+  <div class="modal-body">  
+    <div id="wufoo-w7p6q5">
+      Fill out my <a href="http://codeforamerica.wufoo.com/forms/w7p6q5">online form</a>.
+    </div>
+    <script type="text/javascript">var w7p6q5;(function(d, t) {
+	    var s = d.createElement(t), options = {
+	      'userName':'codeforamerica', 
+	      'formHash':'w7p6q5', 
+	      'autoResize':true,
+	      'height':'764',
+	      'async':true,
+	      'header':'show', 
+	      'ssl':true};
+	      s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+	      s.onload = s.onreadystatechange = function() {
+	        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+	        try { w7p6q5 = new WufooForm();w7p6q5.initialize(options);w7p6q5.display(); } catch (e) {}};
+	        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+	        })(document, 'script');
+	  </script>
+	</div>  
+<!--  <div class="modal-footer">  
+    <a href="#" class="btn btn-success">Call to action</a>  
+    <a href="#" class="btn" data-dismiss="modal">Close</a>  
+  </div>  -->
+</div>
      <!-- Footer
       ================================================== -->
       <footer class="footer">
@@ -265,7 +270,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
 
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	  <script src="js/bootstrap-transition.js"></script>
 	  <script src="js/bootstrap-modal.js"></script>
 	  <script src="js/bootstrap-scrollspy.js"></script>
 	  <script src="js/application.js"></script>
