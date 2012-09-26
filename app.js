@@ -1,3 +1,4 @@
+$(document).ready(function() {
 
 	$('.advisorimages ul li img').popover({
 		placement: 'bottom',
