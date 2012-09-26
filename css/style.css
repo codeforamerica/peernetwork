@@ -490,6 +490,7 @@ img.advisoricons{
 
 .advisorimages ul {
   list-style: none;
+  margin: auto;
 }
 
 .advisorimages li{
