@@ -100,20 +100,8 @@ ul{
 	width:1280px;
 	height:434px;
 	position:relative;	
-	background: url(../images/node_image.png) bottom;
 	margin: 0 auto;
-	
-}
-
-#banner_txt{
-	width:1000px;
-	height:310px;
-	margin:0px auto;
-	text-align:right;
-	padding: 30px 0px 30px 0px;
-	background: url(../images/join_text.png) repeat-x bottom;
-	
-
+	background: url(../images/peer_network_public_health.png) repeat-x bottom;
 }
 
 .top_cufon{
