@@ -112,8 +112,14 @@ ul{
 	text-align:right;
 	padding: 30px 0px 30px 0px;
 	background: url(../images/join_text.png) repeat-x bottom;
-	
+}
 
+#banner_lives{
+	width:1280px;
+	height:434px;
+	position:relative;	
+	margin: 0 auto;
+	background: url(../images/peer_network_public_health.png) repeat-x bottom;	
 }
 
 .top_cufon{
@@ -217,6 +223,70 @@ ul{
 		0px 1px 0px rgba(255,255,255,0.3);
 }
 
+.button_lives {
+	width:200px;
+	height:50px;
+	font-size: 20px;
+	font-family: 'cabin','lato', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';;
+	text-align:center;
+	font-weight:bold;
+	cursor:pointer;	
+	clear:both;
+	color: #ffffff;
+	padding: 10px 20px;
+	margin-top:20px;
+	margin-right:4px;
+	background: -moz-linear-gradient(
+		top,
+		#2fa3eb 0%,
+		#66a7ed 25%,
+		#0284db);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#2fa3eb),
+		color-stop(0.25, #66a7ed),
+		to(#0284db));
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border: 1px solid #0284db;
+	-moz-box-shadow:
+		0px 3px 11px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(2,132,219,1);
+	-webkit-box-shadow:
+		0px 3px 11px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(2,132,219,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+.button_lives:hover {
+	background: -moz-linear-gradient(
+		top,
+		#0284db 0%,
+		#66a7ed 25%,
+		#2fa3eb);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#0284db),
+		color-stop(0.25, #66a7ed),
+		to(#2fa3eb));
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border: 1px solid #2fa3eb;
+	-moz-box-shadow:
+		0px 3px 11px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(2,132,219,1);
+	-webkit-box-shadow:
+		0px 3px 11px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(2,132,219,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
 /*input{
 	float:right;
 	border:none;
@@ -239,8 +309,8 @@ ul{
 
 .Apply {
   position: absolute;
-  right: 210px;
-  bottom: 115px;
+  left: 89px;
+  bottom: 77px;
   
 }
 
@@ -321,6 +391,13 @@ ul{
 	width:100%;
 	height:auto;
 	margin-top: 100px; /* need to account for the size of the nav */
+}
+
+#wrapper_lives{
+	float:left;
+	width:100%;
+	height:auto;
+	margin-top: 77px; /* need to account for the size of the nav */
 }
 
 #main_container{
