@@ -128,10 +128,9 @@ ul{
 }
 
 .button {
-	float:right;
-	width:150px;
-	height:40px;
-	font-size: 16px;
+	width:200px;
+	height:50px;
+	font-size: 20px;
 	font-family: 'cabin','lato', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';;
 	text-align:center;
 	font-weight:bold;
@@ -227,8 +226,8 @@ ul{
 
 .Apply {
   position: absolute;
-  right: 210px;
-  bottom: 115px;
+  left: 89px;
+  bottom: 100px;
   
 }
 
