@@ -100,8 +100,8 @@ ul{
 	width:1280px;
 	height:434px;
 	position:relative;	
-	background: url(../images/node_image.png) bottom;
 	margin: 0 auto;
+<<<<<<< HEAD
 	
 }
 
@@ -146,10 +146,9 @@ ul{
 }
 
 .button {
-	float:right;
-	width:150px;
-	height:40px;
-	font-size: 16px;
+	width:200px;
+	height:50px;
+	font-size: 20px;
 	font-family: 'cabin','lato', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';;
 	text-align:center;
 	font-weight:bold;
@@ -311,7 +310,6 @@ ul{
   position: absolute;
   left: 89px;
   bottom: 77px;
-  
 }
 
 #main_nav_cont{
