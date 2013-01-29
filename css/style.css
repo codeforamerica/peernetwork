@@ -101,8 +101,7 @@ ul{
 	height:434px;
 	position:relative;	
 	margin: 0 auto;
-<<<<<<< HEAD
-	
+   background: url(../images/node_image.png) bottom;	
 }
 
 #banner_txt{
@@ -146,9 +145,9 @@ ul{
 }
 
 .button {
-	width:200px;
-	height:50px;
-	font-size: 20px;
+	width:150px;
+	height:40px;
+	font-size: 16px;
 	font-family: 'cabin','lato', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';;
 	text-align:center;
 	font-weight:bold;
@@ -305,11 +304,16 @@ ul{
 .apply input:hover{
 	background:url(../images/apply_btn.png) left bottom no-repeat;
 }
-
-.Apply {
-  position: absolute;
+.Apply{
+	position: absolute;	
+}
+.Apply.lives {
   left: 89px;
   bottom: 77px;
+}
+.Apply {
+  right: 210px;
+  bottom: 115px;
 }
 
 #main_nav_cont{
@@ -537,6 +541,7 @@ ul.themes li{
   width: 400px;
   float: left;
   font-size: 16px;
+  list-style-type: none;
 }
 
 .proof_cont{
