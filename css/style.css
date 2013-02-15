@@ -383,6 +383,7 @@ ul{
 .membership {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 #main_nav_cont{
@@ -639,13 +640,15 @@ img.advisoricons{
 
 .advisorimages div{
 	text-align: center;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	width: 765px;
 }
 
 .advisorimages ul{
   list-style: none;
   margin: auto;
+  text-align: center;
 }
 
 .advisorimages li{
